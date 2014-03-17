@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/TxtNombre"
+        android:text="Nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"/>"
+
+    <ImageView
+		android:id="@+id/imagen"
+		android:layout_width="300px"
+		android:layout_height="200px"
+		android:layout_gravity="center"
+		/>
+    
+    <TextView
+        android:id="@+id/TxtPrecio"
+        android:text="Precio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"/>"
+
+
+</LinearLayout>
